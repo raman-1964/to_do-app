@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: rgb(99, 62, 133);
+}
+
+.container {
+    height: 65vh;
+    width: 22vw;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+}
+
+.container h2 {
+    text-align: center;
+    background-color: purple;
+    padding: 0.31rem;
+    margin: 1.2rem 0;
+    color: whitesmoke;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.input input {
+    margin-right: 1rem;
+    border-bottom: 2px solid purple;
+    background: none;
+    text-align: center;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    padding-bottom: 0.3rem;
+    width: 60%;
+    outline: none;
+}
+
+.input input::placeholder {
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.input button {
+    border: none;
+    font-size: 1.85rem;
+    background-color: purple;
+    border-radius: 50%;
+    font-weight: lighter;
+    cursor: pointer;
+    color: whitesmoke;
+    width: 2rem;
+    height: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.input button:hover {
+    background-color: rgb(23, 153, 23);
+}
+
+.container ul {
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+}
+
+.container ul li {
+    list-style: none;
+    margin-top: 0.4rem;
+}
+
+.container ul li .item {
+    display: flex;
+    margin-top: 0.4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container ul li .item .btn_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container ul li .item .btn_cont .fa-pencil-square-o {
+    color: green;
+    font-weight: bold;
+}
+
+.container ul li .item .btn_cont .fa-trash-o {
+    color: red;
+    font-weight: bold;
+}
+
+.container ul li .item .btn_cont button {
+    margin-right: 0.9rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 1.2rem;
+    height: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
